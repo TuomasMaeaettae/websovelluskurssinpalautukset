@@ -1,0 +1,30 @@
+.napit {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+.nappi {
+    margin-left: 10px;
+}
+
+.Headers {
+    padding-left: 10px;
+    background-color: yellow;
+    margin-left: 10px;
+}
+
+.list {
+    background-color: pink;
+    margin-left: 40px;
+}
+
+.smallHeader {
+    color: grey;
+    font-size: smaller;
+    font-style: oblique;
+    font-weight: 400;
+}
+ .isChecked {
+     font-weight: bold;
+ }

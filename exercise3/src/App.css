@@ -1,0 +1,78 @@
+.Filterbar {
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  height: 30x;
+  padding-left: 10px;
+}
+
+.header {
+  font-size: large;
+  font-weight: bold;
+}
+
+.täpät {
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.säiliö {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ProductItem {
+  width: 500px;
+  height: 90%;
+  border-bottom: 1px solid;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.ProductItem img {
+  width: 100%;
+}
+
+.prize {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.image {
+  grid-column: 1;
+  grid-row: 1;
+  width: 300%;
+}
+
+.bestseller {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
+  width: 100px;
+}
+
+.notbestseller {
+  width: 100px;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+}
+
+.stars line {
+  margin-top: 5px;
+  width: 150px;
+}
+
+.imagestack {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+}
